@@ -47,13 +47,7 @@ def index():
         Content = xml_rec.find('Content').text
         MsgId = xml_rec.find('MsgId').text
 
-        a = random.randint(1,3)
-        if a==1:
-            Content = 'cnm'
-        elif a==2:
-            Content = 'nmb'
-        else:
-            Content = 'ngsb'
+        Content = random.choice(['cnm','nmb','ngsb'])
             
 
         return templet.reply_templet(MsgType) % (fromUser, ToUserName, str(int(time())), Content)
