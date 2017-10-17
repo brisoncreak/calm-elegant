@@ -1,3 +1,3 @@
-﻿# calm_elegant
+﻿# calm-elegant
 ## 平静优雅
-A WeChat Official Account named 'calm_elegant'
+A WeChat Official Account (weixinhao) named 'calm-elegant'
